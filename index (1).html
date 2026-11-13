@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KF Estética Avançada · Seu Corpo, Sua Melhor Versão · São Bernardo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Tenor+Sans&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<style>
+:root{--black:#141110;--choc:#3a2b27;--mauve:#7a6560;--gold:#c9a76b;--gold2:#e6cf9d;--cream:#f6f1ea}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--cream);color:var(--black);font:300 17px/1.7 Jost,sans-serif}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 40px}
+.pf{font-family:'Playfair Display',serif}
+.ts{font-family:'Tenor Sans',sans-serif}
+/* hero */
+.hero{background:radial-gradient(90% 80% at 50% 30%,#4a3833,#211816 70%);color:#fff;padding-bottom:110px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+.kf{font:italic 500 36px 'Playfair Display';color:var(--gold);letter-spacing:-.06em}
+nav .links{display:flex;gap:30px;font-size:15px;color:#e8ddd6}
+nav .links a{text-decoration:none}
+.btn{display:inline-block;text-decoration:none;background:var(--gold);color:var(--black);padding:16px 32px;font:400 14px 'Tenor Sans';letter-spacing:.12em}
+.btn.dk{background:var(--black);color:var(--gold2)}
+.hero .center{text-align:center;padding-top:60px}
+.hero .mono{font:italic 400 220px/1 'Playfair Display';background:linear-gradient(180deg,#f1dcae,#b8904f 60%,#e6cf9d);-webkit-background-clip:text;background-clip:text;color:transparent;letter-spacing:-.08em}
+.hero .rule{width:420px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:6px auto 22px}
+.hero h1{font:400 22px 'Tenor Sans';letter-spacing:.42em}
+.hero .sub{font:italic 400 36px 'Playfair Display';color:var(--gold2);margin-top:12px}
+.hero p{max-width:560px;margin:22px auto 34px;color:#e8ddd6}
+.hero .tags{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin-top:44px;font:400 13px 'Tenor Sans';letter-spacing:.14em;color:#cbbcb3}
+/* tech */
+.tech{padding:120px 0}
+.tech h2,.svc h2,.rev h2,.cta h2{font:400 58px/1.05 'Playfair Display'}
+.tech h2 i,.svc h2 i{color:var(--mauve)}
+.tech .intro{max-width:560px;margin-top:14px;color:#5e4f4a}
+.devices{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:56px}
+.devices div{background:#fff;padding:26px 16px 22px;text-align:center;border:1px solid #e6dcd2}
+.devices svg{width:54px;height:80px;margin-bottom:14px}
+.devices b{display:block;font:400 18px 'Tenor Sans';letter-spacing:.08em}
+.devices span{font-size:13px;color:#7a6a64}
+/* services */
+.svc{background:var(--choc);color:#fff;padding:120px 0}
+.svc h2 i{color:var(--gold2)}
+.cols{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:56px}
+.cols h3{font:400 14px 'Tenor Sans';letter-spacing:.3em;color:var(--gold);padding-bottom:14px;border-bottom:1px solid rgba(201,167,107,.4);margin-bottom:10px}
+.cols li{list-style:none;padding:10px 0;font:400 24px 'Playfair Display';color:#f3ebe5}
+/* reviews */
+.rev{padding:120px 0}
+.rev .head{display:flex;justify-content:space-between;align-items:end;gap:40px}
+.rev .score{font:400 90px/1 'Playfair Display';color:var(--gold)}
+.rev .score small{display:block;font:300 15px Jost;color:#5e4f4a}
+.rg{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:50px}
+.rg figure{background:#fff;padding:36px;border-top:3px solid var(--gold)}
+.rg blockquote{font:italic 400 24px/1.4 'Playfair Display'}
+.rg figcaption{margin-top:14px;font-size:14px;color:#7a6a64}
+/* hours */
+.hours{background:var(--mauve);color:#fff;padding:80px 0}
+.hours .wrap{display:flex;justify-content:space-between;align-items:center;gap:40px}
+.hours b{font:400 44px 'Playfair Display'}
+.hours span{display:block;font:400 14px 'Tenor Sans';letter-spacing:.2em;color:#f0e2dc}
+/* cta */
+.cta{padding:110px 0;text-align:center}
+.cta p{max-width:520px;margin:18px auto 34px;color:#5e4f4a}
+.cta .addr{margin-top:34px;font-size:15px;color:#7a6a64}
+footer{background:var(--black);color:#bfae9f;text-align:center;padding:24px;font:400 12px 'Tenor Sans';letter-spacing:.24em}
+@media(max-width:900px){.devices{grid-template-columns:repeat(2,1fr)}.cols,.rg{grid-template-columns:1fr}.hero .mono{font-size:120px}.hours .wrap,.rev .head{display:block}nav .links{display:none}}
+</style>
+</head>
+<body>
+<section class="hero">
+ <div class="wrap">
+  <nav>
+   <div class="kf">KF</div>
+   <div class="links"><a href="#tecnologias">Tecnologias</a><a href="#servicos">Serviços</a><a href="#avaliacoes">Avaliações</a></div>
+   <a class="btn" href="https://wa.me/5511950356829">AGENDAR</a>
+  </nav>
+  <div class="center">
+   <div class="mono">KF</div>
+   <div class="rule"></div>
+   <h1>ESTÉTICA AVANÇADA</h1>
+   <div class="sub">Seu corpo, sua melhor versão</div>
+   <p>As tecnologias mais avançadas do mercado, no centro de São Bernardo do Campo. O cuidado estético começa muito antes de qualquer procedimento.</p>
+   <a class="btn" href="https://wa.me/5511950356829">AGENDE O SEU HORÁRIO</a>
+   <div class="tags"><span>HARMONIZAÇÃO FACIAL</span><span>LIMPEZA DE PELE</span><span>INJETÁVEIS</span><span>DRENAGEM</span><span>CAPILAR</span><span>DEPILAÇÃO A LASER</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="tech" id="tecnologias">
+ <div class="wrap">
+  <h2>Tecnologias <i>de ponta</i></h2>
+  <p class="intro">Equipamentos de última geração para resultados de verdade no corpo, no rosto e na depilação.</p>
+  <div class="devices">
+   <div><svg viewBox="0 0 54 80" fill="none" stroke="#7a6560" stroke-width="2"><rect x="10" y="6" width="34" height="50" rx="6"/><rect x="16" y="14" width="22" height="16" rx="2"/><path d="M27 56v18M18 74h18"/></svg><b>Hipro</b><span>contorno e firmeza</span></div>
+   <div><svg viewBox="0 0 54 80" fill="none" stroke="#7a6560" stroke-width="2"><rect x="12" y="4" width="30" height="56" rx="10"/><circle cx="27" cy="22" r="7"/><path d="M27 60v14M16 74h22"/></svg><b>Volnewmer</b><span>rejuvenescimento</span></div>
+   <div><svg viewBox="0 0 54 80" fill="none" stroke="#7a6560" stroke-width="2"><path d="M14 8h26l4 48H10z"/><path d="M18 18h18M27 56v18M16 74h22"/></svg><b>Etherea</b><span>laser e luz pulsada</span></div>
+   <div><svg viewBox="0 0 54 80" fill="none" stroke="#7a6560" stroke-width="2"><rect x="8" y="10" width="38" height="44" rx="4"/><path d="M14 20h26M14 28h18M27 54v20M16 74h22"/></svg><b>Viora</b><span>radiofrequência</span></div>
+   <div><svg viewBox="0 0 54 80" fill="none" stroke="#7a6560" stroke-width="2"><ellipse cx="27" cy="30" rx="18" ry="24"/><path d="M27 54v20M16 74h22"/></svg><b>Onix</b><span>tratamentos corporais</span></div>
+   <div><svg viewBox="0 0 54 80" fill="none" stroke="#7a6560" stroke-width="2"><path d="M20 6h14v30l8 18H12l8-18z"/><path d="M27 54v20M16 74h22"/></svg><b>Laser</b><span>depilação</span></div>
+  </div>
+ </div>
+</section>
+
+<section class="svc" id="servicos">
+ <div class="wrap">
+  <h2>Estética <i>&amp; bem-estar</i></h2>
+  <div class="cols">
+   <div><h3>ROSTO</h3><ul><li>Harmonização facial</li><li>Injetáveis</li><li>Limpeza de pele profunda</li><li>Skincare</li></ul></div>
+   <div><h3>CORPO</h3><ul><li>Estética corporal</li><li>Drenagem linfática</li><li>Massagem relaxante</li><li>Massagem pós-treino</li></ul></div>
+   <div><h3>MAIS</h3><ul><li>Depilação a laser</li><li>Tratamentos capilares</li><li>Tecnologias avançadas</li></ul></div>
+  </div>
+ </div>
+</section>
+
+<section class="rev" id="avaliacoes">
+ <div class="wrap">
+  <div class="head"><h2>Quem vem, recomenda</h2><div class="score">5,0<small>20 avaliações no Google</small></div></div>
+  <div class="rg">
+   <figure><blockquote>“A melhor profissional, o melhor atendimento e o melhor preço da região!”</blockquote><figcaption>Avaliação no Google</figcaption></figure>
+   <figure><blockquote>“Ambiente tranquilo e confortável, adorei a experiência.”</blockquote><figcaption>Avaliação no Google</figcaption></figure>
+   <figure><blockquote>“Excelente profissional! Atendimento impecável e produtos de qualidade.”</blockquote><figcaption>Giovana S. · Google</figcaption></figure>
+  </div>
+ </div>
+</section>
+
+<section class="hours">
+ <div class="wrap"><div><span>HORÁRIO DE ATENDIMENTO</span><b>Terça a sábado, das 9h às 20h</b></div><a class="btn dk" href="https://wa.me/5511950356829">RESERVAR</a></div>
+</section>
+
+<section class="cta">
+ <div class="wrap">
+  <h2>Sua melhor versão começa aqui</h2>
+  <p>Agende sua avaliação e conheça a KF Estética Avançada.</p>
+  <a class="btn dk" href="https://wa.me/5511950356829">WHATSAPP · (11) 95035-6829</a>
+  <div class="addr">R. São Bernardo, 56 · Centro · São Bernardo do Campo – SP</div>
+ </div>
+</section>
+<footer>KF ESTÉTICA AVANÇADA</footer>
+</body>
+</html>
